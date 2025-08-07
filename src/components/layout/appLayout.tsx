@@ -63,7 +63,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
                 </div>
 
                 <nav className="flex flex-col space-y-2">
-                    <Button variant="ghost" className="justify-start text-white hover:bg-blue-800" onClick={() => router.push('/admin/dashboaard')}>
+                    <Button variant="ghost" className="justify-start text-white hover:bg-blue-800" onClick={() => router.push('/admin/dashboard')}>
                         Dashboard
                     </Button>
                     <Button variant="ghost" className="justify-start text-white hover:bg-blue-800" onClick={() => router.push('/admin/profile')}>
